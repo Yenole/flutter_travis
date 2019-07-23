@@ -37,7 +37,7 @@ deploy:
   skip_cleanup: true
   api_key:
     secure: cGhcCnvsVZ0sKxAKkBSkfxgz1oVXK1lGSypFyJ6MgIXElQ0AKwJUpLMx7Nix1whN8oqw1jfbV2PzWtxrAR++T0sB1KGpmF601/6e1QalNTh5c9haO9ZaftnWiRD5iNlMp0o0EC3LorafYSlsX8S/est95gaicQTIoxCd4dNelo0FyBoWZCfTW9eWTMiJzwce39TQJ0akXa5O9zg3nd358kyRcqLHItcCQCYd4BvdPsM73hpXY3Wh9N47lC34NkCeDlh7PFz6TgoRlzqLFIh6yFwClVIsPItBA32WwRi2IA0PCAUcIvtETSk1UVQKCOZPtEWL+c0My39G20xqjkV2LgiphCDJcq848fUSQHLwqUVrMaOpZtI8Oub6k8NaIa50+TyDPebNXU9o0dNR51+aIonauLhYTbGsnH2hSzF5RDOLlo1+Pd1NGBXk7jTsCNNzzBjojED5nxY9q0t6/1PkqMVYYPBIL0riuWd6iKJyE16NFvT9w8Jf2K1OGPJOCzxAKGOXtQ5db6Kt/O2C0wOlscdplr7nf/2koXB21EL70xOh4DtQzTXNsFqGMRQKGhktltAXK4J3g5XIWe2fJ8jon83KOQoKw5p+AZsMeRK70lIAR8wZ4q7nHTwveCD/wm6Ux13kyAxx60hmzT/XfaUbkN6/7pBuihf96jFB0e8N598=
-  file: build/app/outputs/apk/app-release.apk
+  file: build/app/outputs/apk/release/app-release.apk
   on:
     tags: true
     repo: Yenole/flutter_travis
